@@ -1,0 +1,86 @@
+h1{
+				text-align: center;
+			}
+			.row1, .row2, .row3{
+				background-color: cyan;
+				border: 1px solid black;
+				width: 300px;
+				position: relative;
+				top: 100px;
+				margin: 1px;
+
+				
+			}
+			.item1{
+				background-color: indianred;
+				border: 1px solid black;
+				width: 100px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				text-align: center;
+			}
+			.item2{
+				background-color: pink;
+				border: 1px solid black;
+				width: 100px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				text-align: center;
+			}
+			.item3{
+				background-color: yellow;
+				border: 1px solid black;
+				width: 100px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				text-align: center;
+			}
+			@media (min-width: 992px){
+				.row1, .row2, .row3{
+					border: 1px solid black;
+					float: left;
+				}
+				.row1{
+					width: 33%;
+				}
+				.row2{
+					width: 33%;
+				}
+				.row3{
+					width: 33%;
+				}
+			}
+			@media (min-width: 768px) and (max-width: 991px){
+				.row1, .row2, .row3{
+					border: 1px solid black;
+					float: left;
+				}
+				.row1{
+					width: 50%;
+				}
+				.row2{
+					width: 50%;
+				}
+				.row3{
+					width: 100%;
+				}
+			}
+			@media (max-width: 767px){
+				.row1, .row2, .row3{
+					border: 1px solid black;
+					float: left;
+				}
+				.row1{
+					width: 100%;
+				}
+				.row2{
+					width: 100%;
+				}
+				.row3{
+					width: 100%;
+				}
+			}
+
